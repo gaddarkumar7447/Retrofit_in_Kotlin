@@ -8,8 +8,6 @@ import androidx.recyclerview.widget.RecyclerView
 
 class AdapterClass(var list: List<MyDataItem>) : RecyclerView.Adapter<AdapterClass.ViewHolder> () {
 
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.viewcard, parent, false)
         return ViewHolder(view)
